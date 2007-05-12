@@ -52,7 +52,7 @@ function widget_ccLicense_init() {
     $language = $options['language'];
     
 		echo $before_widget . $before_title . $title . $after_title;
-    if ($language eq "Spanish") {
+    if ($language == "Spanish") {
   		?>
         <!--Creative Commons License-->
           <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.es_CL">
