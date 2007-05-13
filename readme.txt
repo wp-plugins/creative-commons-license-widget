@@ -7,18 +7,39 @@ Author URI: http://www.xperimentos.com
 Tags: license, creative commons
 Requires at least: 2.0.2
 Tested up to: 2.1
-Stable tag: 0.4
-Version: 0.4
+Stable tag: 0.5
+Version: 0.5
 Creation time: 12/5/2007
-Last updated: 12/5/2007
+Last updated: 13/5/2007
 
-Adds a sidebar widget to display creative commons license (both Spanish and English languages are supported).
+Adds a sidebar widget to display creative commons license (supports all 3.0 licenses)
 
 
 == Description ==
 
-Adds a sidebar widget to display creative commons license.
-	Spanish and English languages are supported).
+Adds a sidebar widget to display creative commons license:
+
+Two languages: 
+* English
+* Spanish
+
+All creative commons licenses:
+* Attribution      
+* Attribution-NoDerivs     
+* Attribution-NonCommercial-NoDerivs   
+* Attribution-NonCommercial   
+* Attribution-NonCommercial-ShareAlike    
+* Attribution-ShareAlike     
+
+Three images types
+* somerights20
+* 80x15
+* 88x31
+
+== Screenshots ==
+
+1. Widget configuration
+2. Example
 
 
 == Installation ==
