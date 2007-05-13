@@ -3,7 +3,7 @@
 Plugin Name: creative commons license widget
 Contributors: lcflores
 Donate link: http://www.xperimentos.com/2007/05/11/creative-commons-license-widget-for-wordpress/
-Author URI: http://www.xperimentos.com
+Author URI: http://www.xperimentos.com/2007/05/11/creative-commons-license-widget-for-wordpress/
 Tags: license, creative commons
 Requires at least: 2.0.2
 Tested up to: 2.1
