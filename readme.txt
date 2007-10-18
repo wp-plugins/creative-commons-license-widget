@@ -6,11 +6,11 @@ Donate link: http://www.xperimentos.com/2007/05/11/creative-commons-license-widg
 Author URI: http://www.xperimentos.com/2007/05/11/creative-commons-license-widget-for-wordpress/
 Tags: license, creative commons
 Requires at least: 2.0.2
-Tested up to: 2.1
+Tested up to: 2.3
 Stable tag: 0.5
 Version: 0.5
 Creation time: 12/5/2007
-Last updated: 13/5/2007
+Last updated: 18/10/2007
 
 Adds a sidebar widget to display creative commons license (supports all 3.0 licenses)
 
