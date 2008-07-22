@@ -1,17 +1,16 @@
 === creative commons license widget ===
 
 Plugin Name: creative commons license widget
-Contributors: lcflores
+Contributors: lcflores, Gyo (italian translation, some formatting - http://gyo.ilbello.com)
 Donate link: http://www.xperimentos.com/2007/05/11/creative-commons-license-widget-for-wordpress/
 Author URI: http://www.xperimentos.com/2007/05/11/creative-commons-license-widget-for-wordpress/
 Tags: license, creative commons
 Requires at least: 2.0.2
-Tested up to: 2.3
-Stable tag: 0.5
-Version: 0.5
+Tested up to: 2.5
+Stable tag: 0.6
+Version: 0.6
 Creation time: 12/5/2007
-Last updated: 18/10/2007
-
+Last updated: 21/7/2008
 Adds a sidebar widget to display creative commons license (supports all 3.0 licenses)
 
 
@@ -19,9 +18,10 @@ Adds a sidebar widget to display creative commons license (supports all 3.0 lice
 
 Adds a sidebar widget to display creative commons license:
 
-Two languages: 
+Tree languages: 
 * English
 * Spanish
+* Italian
 
 All creative commons licenses:
 * Attribution      

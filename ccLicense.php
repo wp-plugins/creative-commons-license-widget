@@ -1,16 +1,16 @@
 <?php
 /****************************************************************************
 Plugin Name: creative commons license widget
-Contributors: lcflores
+Contributors: lcflores, Gyo (italian translation, some formatting - http://gyo.ilbello.com)
 Donate link: http://www.xperimentos.com/2007/05/11/creative-commons-license-widget-for-wordpress/
 Author URI: http://www.xperimentos.com/2007/05/11/creative-commons-license-widget-for-wordpress/
 Tags: license, creative commons
 Requires at least: 2.0.2
-Tested up to: 2.3
-Stable tag: 0.5
-Version: 0.5
+Tested up to: 2.5
+Stable tag: 0.6
+Version: 0.6
 Creation time: 12/5/2007
-Last updated: 18/10/2007
+Last updated: 21/7/2008
 Description: Adds a sidebar widget to display creative commons license (supports all 3.0 licenses)
 ****************************************************************************/
 
@@ -43,6 +43,7 @@ function widget_ccLicense_init() {
 						<select id="ccLicense-language" name="ccLicense-language">
 							<option value="English" <?php if ($options['language']=='English') {echo "selected=\"selected\""; }?> >English</option>						
 							<option value="Spanish" <?php if ($options['language']=='Spanish') {echo "selected=\"selected\""; }?> >Spanish</option>
+							<option value="Italian" <?php if ($options['language']=='Italian') {echo "selected=\"selected\""; }?> >Italian</option>
 						</select>
 					</label>
 					<label for="ccLicense-type" style="line-height:25px;display:block;"><?php _e('License:', 'widgets'); ?> 
@@ -89,6 +90,10 @@ function widget_ccLicense_init() {
 			case 'Spanish':
 					$text = 'Blog bajo licencia';
 					$licenseUrl = 'deed.es_CL';
+					break;
+			case 'Italian':
+					$text = 'Blog sotto licenza';
+					$licenseUrl = 'deed.it';
 					break;
 			case 'English':
 					$text = 'Blog under the';
@@ -144,10 +149,11 @@ function widget_ccLicense_init() {
 		echo $before_widget . $before_title . $title . $after_title;
 		?>
 			<!--Creative Commons License-->
-				<a rel="license" href="<?php echo $licenseUrl; ?>">
+				<div style="text-align: center; font-size: xx-small;">
+                                <?php echo $text; ?> 
+                                <a rel="license" target="_blank" href="<?php echo $licenseUrl; ?>"> <?php echo $licenseText; ?><br/>
 				<img alt="Creative Commons License" border="0" src="<?php echo $imageUrl; ?>"/></a>
-				<br/>
-				<?php echo $text; ?> <a rel="license" href="<?php echo $licenseUrl; ?>"><?php echo $licenseText; ?></a>. 
+				</div>
 			<!--/Creative Commons License-->
 		<?php	 
 			
