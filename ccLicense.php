@@ -1,16 +1,16 @@
 <?php
 /****************************************************************************
 Plugin Name: creative commons license widget
-Contributors: lcflores, Gyo (italian translation, some formatting - http://gyo.ilbello.com)
+Contributors: lcflores, Gyo (italian translation - http://gyo.ilbello.com), Sergi Barros (catalan translation)
 Donate link: http://www.xperimentos.com/2007/05/11/creative-commons-license-widget-for-wordpress/
 Author URI: http://www.xperimentos.com/2007/05/11/creative-commons-license-widget-for-wordpress/
 Tags: license, creative commons
 Requires at least: 2.0.2
 Tested up to: 2.5
-Stable tag: 0.6
-Version: 0.6
-Creation time: 12/5/2007
-Last updated: 21/7/2008
+Stable tag: 0.7
+Version: 0.7
+Creation time: 12/05/2007
+Last updated: 22/07/2008
 Description: Adds a sidebar widget to display creative commons license (supports all 3.0 licenses)
 ****************************************************************************/
 
@@ -44,6 +44,7 @@ function widget_ccLicense_init() {
 							<option value="English" <?php if ($options['language']=='English') {echo "selected=\"selected\""; }?> >English</option>						
 							<option value="Spanish" <?php if ($options['language']=='Spanish') {echo "selected=\"selected\""; }?> >Spanish</option>
 							<option value="Italian" <?php if ($options['language']=='Italian') {echo "selected=\"selected\""; }?> >Italian</option>
+							<option value="Catalan" <?php if ($options['language']=='Catalan') {echo "selected=\"selected\""; }?> >Catalan</option>              
 						</select>
 					</label>
 					<label for="ccLicense-type" style="line-height:25px;display:block;"><?php _e('License:', 'widgets'); ?> 
@@ -99,6 +100,10 @@ function widget_ccLicense_init() {
 					$text = 'Blog under the';
 					$licenseUrl = '';
 					break;
+			case 'Catalan':
+					$text = 'Blog sota llicència';
+					$licenseUrl = 'deed.ca';
+					break;          
 			default:
 					$text = 'Blog under the';
 					$licenseUrl = '';
